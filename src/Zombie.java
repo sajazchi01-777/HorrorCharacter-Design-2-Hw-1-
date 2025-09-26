@@ -3,9 +3,7 @@ import java.util.ArrayList;
 public class Zombie extends HorrorCharacter
 {
     /**
-     * @param name
-     * @param health
-     * @param vulnerabilities
+     * Creating variables for name, health, as well as an array of vulnerabilities
      */
 
     String name;
@@ -26,8 +24,7 @@ public class Zombie extends HorrorCharacter
     }
 
     /**
-     * Overridden getter for vulnerabilities
-     * @return
+     * @return vulnerabilities
      */
 
     @Override
@@ -37,8 +34,7 @@ public class Zombie extends HorrorCharacter
     }
 
     /**
-     * Overridden getter for name
-     * @return
+     * @return name
      */
 
     @Override
@@ -48,8 +44,7 @@ public class Zombie extends HorrorCharacter
     }
 
     /**
-     * Overridden getter for health
-     * @return
+     * @return health
      */
 
     @Override

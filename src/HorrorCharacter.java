@@ -7,9 +7,7 @@ import java.util.ArrayList;
 public class HorrorCharacter
 {
     /**
-     * @param name
-     * @param health
-     * @param vulnerabilities
+     * Creating variables for name, health, as well as an array of vulnerabilities
      */
 
     String name;
@@ -35,8 +33,7 @@ public class HorrorCharacter
     }
 
     /**
-     * Getter for the vulnerabilities
-     * @return
+     * @return vulnerabilities
      */
 
     public ArrayList<Vulnerabilities> getVulnerabilities()
@@ -45,8 +42,7 @@ public class HorrorCharacter
     }
 
     /**
-     * Getter for health
-     * @return
+     * @return health
      */
 
     public int getHealth()
@@ -55,8 +51,7 @@ public class HorrorCharacter
     }
 
     /**
-     * Getter for name
-     * @return
+     * @return name
      */
 
     public String getName()

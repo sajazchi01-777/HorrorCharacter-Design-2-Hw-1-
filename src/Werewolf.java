@@ -3,10 +3,7 @@ import java.util.ArrayList;
 public class Werewolf extends HorrorCharacter implements Transformable
 {
     /**
-     * @param name
-     * @param health
-     * @param transformStatus
-     * @param vulnerabilities
+     * Creating variables for name, health, and status of transformation, as well as an array of vulnerabilities
      */
 
     String name;
@@ -30,8 +27,7 @@ public class Werewolf extends HorrorCharacter implements Transformable
     }
 
     /**
-     * Overridden getter for vulnerabilities
-     * @return
+     * @return vulnerabilities
      */
 
     @Override
@@ -41,8 +37,7 @@ public class Werewolf extends HorrorCharacter implements Transformable
     }
 
     /**
-     * Overridden getter for name
-     * @return
+     * @return name
      */
 
 
@@ -53,8 +48,7 @@ public class Werewolf extends HorrorCharacter implements Transformable
     }
 
     /**
-     * Overridden getter for health
-     * @return
+     * @return health
      */
 
     @Override

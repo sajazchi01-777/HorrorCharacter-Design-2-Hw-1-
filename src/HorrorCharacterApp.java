@@ -4,7 +4,6 @@ public class HorrorCharacterApp
 {
     /**
      * Main program
-     * @param args
      */
 
     public static void main(String[] args)
