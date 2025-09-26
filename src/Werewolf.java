@@ -2,10 +2,21 @@ import java.util.ArrayList;
 
 public class Werewolf extends HorrorCharacter implements Transformable
 {
+    /**
+     * @param name
+     * @param health
+     * @param transformStatus
+     * @param vulnerabilities
+     */
+
     String name;
     int health;
     boolean transformStatus;
     ArrayList<Vulnerabilities> vulnerabilities = new ArrayList<>();
+
+    /**
+     * Constructor for Werewolf child class
+     */
 
     public Werewolf()
     {
@@ -18,11 +29,21 @@ public class Werewolf extends HorrorCharacter implements Transformable
        transformStatus = false;
     }
 
+    /**
+     * Overridden getter for vulnerabilities
+     * @return
+     */
+
     @Override
     public ArrayList<Vulnerabilities> getVulnerabilities()
     {
         return vulnerabilities;
     }
+
+    /**
+     * Overridden getter for name
+     * @return
+     */
 
 
     @Override
@@ -31,11 +52,20 @@ public class Werewolf extends HorrorCharacter implements Transformable
         return name;
     }
 
+    /**
+     * Overridden getter for health
+     * @return
+     */
+
     @Override
     public int getHealth()
     {
         return health;
     }
+
+    /**
+     * Overridden attack method
+     */
 
     @Override
     public void attack()
@@ -46,6 +76,10 @@ public class Werewolf extends HorrorCharacter implements Transformable
             System.out.println(name + " attacks using hurtful words, wounding the victim's ego!");
     }
 
+    /**
+     * Overridden flee method
+     */
+
     @Override
     public void flee()
     {
@@ -54,6 +88,10 @@ public class Werewolf extends HorrorCharacter implements Transformable
         else
             System.out.println(name + " ran away at a normal human pace!");
     }
+
+    /**
+     * Overridden transform method
+     */
 
     @Override
     public void transform()

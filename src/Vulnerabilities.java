@@ -1,5 +1,9 @@
 public enum Vulnerabilities
 {
+    /**
+     * Enum containing all vulnerabilities
+     */
+
     FIRE,
     SUNLIGHT,
     SILVER,
